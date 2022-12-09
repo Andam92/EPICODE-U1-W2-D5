@@ -60,7 +60,8 @@ const cars = [
 ];
 
 for (let index = 0; index < cars.length; index++) {
-  cars[index].licensePlate = "ABC123";
+  if ((cars[0].licensePlate = "AA123"))
+    if ((cars[1].licensePlate = "DB153")) if ((cars[2].licensePlate = "ZC124"));
 }
 
 console.log(cars);
