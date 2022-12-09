@@ -84,12 +84,12 @@ p {
   text-align: center;
   margin-top: 40px;
   background-color: white;
-  height: 560px;
+  height: 760px;
 }
 
 .img {
   width: 400px;
-  height: 400px;
+  height: 600px;
   margin: 1rem;
   border-radius: 10px;
   object-fit: cover;
@@ -105,7 +105,7 @@ p {
 
 .background-2 a {
   padding-left: 30px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-decoration: none;
   color: #2f6c74;
 }
@@ -114,7 +114,52 @@ p {
   background-image: url(./assets/img_9.png);
   background-size: contain;
   background-repeat: no-repeat;
-
   margin-top: 70px;
-  height: 560px;
+  height: 760px;
+  background-position: center;
+}
+
+.sez-2 {
+  background-image: url(./assets/img_10.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  height: 760px;
+  background-position: center;
+}
+
+.center-p {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-p a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding-left: 30px;
+  color: #2f6c74;
+  padding-bottom: 20px;
+}
+
+footer a {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  font-size: 1.3rem;
+  color: white;
+}
+
+footer .bg-dark {
+  padding: 20px;
+}
+
+.logo2 {
+  padding: 40px;
+  background-color: #222f3f;
+}
+
+.logo3 {
+  width: 230px;
 }
