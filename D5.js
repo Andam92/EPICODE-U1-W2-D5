@@ -125,24 +125,34 @@ const charactersArray = ["g", "n", "u", "z", "d"];
 console.log(charactersArray);
 
 const newArray = [];
+
 for (let index = 0; index < charactersArray.length; index++) {
   switch (charactersArray[index]) {
-    case [0]:
-      console.log("7");
+    case "g":
+      newArray.push("7");
       break;
-
-    case [1]:
+    case "n":
       newArray.push("12");
       break;
-    case [2]:
+    case "u":
       newArray.push("19");
       break;
-    case [3]:
+    case "z":
       newArray.push("21");
       break;
-    case [4]:
-      newArray.push("7");
+    case "d":
+      newArray.push("4");
       break;
   }
 }
+
+/* if (charactersArray[0] === "g") {
+  newArray.push("7");
+}
+if (charactersArray[1] === "n") {
+  newArray.push("12");
+}
+if (charactersArray[2] === "u") {
+  newArray.push("19");
+} */
 console.log(newArray);
